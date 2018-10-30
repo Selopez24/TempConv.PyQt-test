@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>968</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_FtoC">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>380</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>F to C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_CtoF">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>100</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C to F</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>280</y>
+      <width>59</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Celsius</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>280</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fahrenheit</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editCel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>250</y>
+      <width>113</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinF">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>250</y>
+      <width>47</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>968</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
